@@ -16,10 +16,10 @@ cache_dir=`mktemp -d`
 
 sudo apt-get -y update && sudo apt-get -y install jq recode sqlite3
 
-# init scoop-zapps
-init_scoop-zapps(){
-    git clone --depth=1 https://github.com/kkzzhizhou/scoop-zapps  ${cache_dir}/scoop-zapps
-    files=$(find ${cache_dir}/scoop-zapps -type f -name *.json -not -path "${cache_dir}/scoop-zapps/.vscode/*")
+# init Personal-scoop
+init_Personal-scoop(){
+    git clone --depth=1 https://github.com/Ovler-Young/Personal-scoop  ${cache_dir}/Personal-scoop
+    files=$(find ${cache_dir}/Personal-scoop -type f -name *.json -not -path "${cache_dir}/Personal-scoop/.vscode/*")
     for file in ${files[@]}
     do
         file_name=$(echo $file | awk -F'/' '{print $NF}')
@@ -30,7 +30,7 @@ init_scoop-zapps(){
             # record file_id
             echo $file_id >> ${cache_dir}/file_ids
         fi
-        add_to_bucket "$file" "${file_name}" "kkzzhizhou/scoop-zapps"
+        add_to_bucket "$file" "${file_name}" "Ovler-Young/Personal-scoop"
         # record file_md5
         echo $file_md5 >> ${cache_dir}/file_md5
     done
@@ -48,7 +48,7 @@ gen_bucket_config(){
             sqlite3 ./scoop_directory.db "UPDATE buckets SET updated = '$date_recode' where id = $i"
         done
         check_date=$(date +"%y-%m-%d" -d '1 month ago')
-        bucket_urls=$(sqlite3 ./scoop_directory.db "select bucket_url from buckets where packages >= 10 and stars >= 5 and updated > '$check_date' and bucket_url not like '%ScoopInstaller/Main%' and bucket_url not like '%kkzzhizhou/scoop-zapps%' order by stars desc, updated desc, stars desc")
+        bucket_urls=$(sqlite3 ./scoop_directory.db "select bucket_url from buckets where packages >= 10 and stars >= 5 and updated > '$check_date' and bucket_url not like '%ScoopInstaller/Main%' and bucket_url not like '%Ovler-Young/Personal-scoop%' order by stars desc, updated desc, stars desc")
         for bucket_url in ${bucket_urls[@]}; do
             bucket_name=$(echo $bucket_url | awk -F'/' '{print $(NF-1)"/"$NF}')
             echo "add bucket:$bucket_name"
@@ -83,7 +83,7 @@ merge_scripts(){
             cp -rf ${cache_dir}/${bucket_dir}/scripts/* ./scripts/
         fi
     done
-    cp -rf ${cache_dir}/scoop-zapps/scripts/* ./scripts/
+    cp -rf ${cache_dir}/Personal-scoop/scripts/* ./scripts/
 }
 # add json
 add_to_bucket(){
@@ -117,7 +117,7 @@ rm -f ${cache_dir}/file_md5 && touch ${cache_dir}/file_md5
 rm -f app-contributor-list.txt
 echo "name    bucket" > app-contributor-list.txt
 init_main
-init_scoop-zapps
+init_Personal-scoop
 gen_bucket_config
 download_bucket
 merge_scripts
