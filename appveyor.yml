@@ -15,9 +15,9 @@ environment:
   matrix:
     - PowerShell: 5
     - PowerShell: Current
-cache:
-  - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> appveyor.yml'
-  - C:\projects\helpers  -> appveyor.yml, test\bin\*.ps1
+# cache:
+#  - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> appveyor.yml'
+#  - C:\projects\helpers  -> appveyor.yml, test\bin\*.ps1
 matrix:
   fast_finish: true
 init:
