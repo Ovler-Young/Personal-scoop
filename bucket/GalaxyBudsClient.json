@@ -5,6 +5,12 @@
     "license": "GPL-3.0",
     "url": "https://github.com/ThePBone/GalaxyBudsClient/releases/download/4.5.2/GalaxyBudsClient_Windows_64bit_Setup.exe#/dl.7z",
     "hash": "md5:58a489cafb5ce13ad064fd624b89a2bc",
+    "shortcuts": [
+        [
+            "Galaxy Buds Client.exe",
+            "Galaxy Buds Client"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/ThePBone/GalaxyBudsClient"
     },
