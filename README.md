@@ -1,6 +1,7 @@
+# 🍨 Scoopet 🍨
+
 <body>
     <div align="left">
-        <h1 align="left">🍨 Scoopet 🍨</h1>
         <p>
             <a>
                 <img
@@ -44,7 +45,7 @@ For ones familiar with Scoop:
 scoop bucket add scoopet https://github.com/Ovler-Young/Personal-scoop
 ```
 
-# :running: To Start
+## :running: To Start
 
 ## :bike: Install Scoop
 
@@ -71,7 +72,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 
 ### :book: Step 4: Glance at quick-start by `scoop help`
 
-For more information, please visit Scoop official site at 👉 https://scoop.sh/ 👈
+For more information, please visit Scoop official site at 👉 <https://scoop.sh/> 👈
 
 ## :car: Install Apps from this bucket
 
@@ -93,7 +94,7 @@ if you are using VPN, you need to turn off aria2 before installing Apps
 scoop config aria2-enabled false
 ```
 
-### :airplane: Step 3: Add this wonderful bucket and update, mo-mo-da~ :kiss:
+### :airplane: Step 3: Add this wonderful bucket and update, mo-mo-da~ :kiss
 
 ```powershell
 scoop bucket add scoopet https://github.com/Ovler-Young/Personal-scoop
