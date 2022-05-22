@@ -10,5 +10,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/ThePBone/GalaxyBudsClient/releases/download/$version/GalaxyBudsClient_Windows_64bit_Setup.exe"
-    }
+    },
+    "innosetup": true
 }
