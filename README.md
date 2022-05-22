@@ -149,26 +149,8 @@ scoop config aria2-min-split-size 4M
 
 ## :star: Summary
 
-### Research Tools
-
 |          App          | Auto-Update ? | Original ?                                                          |
 | :-------------------: | :-----------: | ------------------------------------------------------------------- |
-|    TBD     |       ×       | ×                                                                   |
-
-### Development Auxillary
-
-|                  App                  | Auto-Update ? | Original ?                                                               |
-| :-----------------------------------: | :-----------: | ------------------------------------------------------------------------ |
-|    TBD     |       ×       | ×                                                                   |
-
-### Daily Work
-
-|       App        | Auto-Update ? | Original ?                                                |
-| :--------------: | :-----------: | --------------------------------------------------------- |
-|    TBD     |       ×       | ×                                                                   |
-
-### Social & Entertainment
-
-|      App      | Auto-Update ? | Original ?                                                |
-| :-----------: | :-----------: | --------------------------------------------------------- |
-|    TBD     |       ×       | ×                                                                   |
+|    RcloneBrowser     |       ×       | √                                                                   |
+|    GalaxyBudsClient     |       √       | √                                                                   |
+|    SmartSystemMenu     |       √       | √                                                                   |
