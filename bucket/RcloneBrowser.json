@@ -1,0 +1,17 @@
+{
+    "version":  "1.8.0",
+    "license":  "MIT",
+    "extract_dir":  "",
+    "url":  "https://github.com/kapitainsky/RcloneBrowser/releases/download/1.8.0/rclone-browser-1.8.0-a0b66c6-windows-64-bit.exe",
+    "depends":  "",
+    "homepage":  "https://github.com/kapitainsky/RcloneBrowser",
+    "hash":  "",
+    "bin":  "",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "RcloneBrowser.exe",
+            "RcloneBrowser"
+        ]
+    ]
+}
