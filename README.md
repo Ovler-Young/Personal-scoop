@@ -155,3 +155,5 @@ scoop config aria2-min-split-size 4M
 |    RcloneBrowser     |       ×       | √                                                                   |
 |    GalaxyBudsClient     |       √       | √                                                                   |
 |    SmartSystemMenu     |       √       | √                                                                   |
+| TrafficMonitor | √ | √ |
+| EverythingToolbar | √ | × |
