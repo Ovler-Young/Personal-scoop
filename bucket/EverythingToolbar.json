@@ -3,6 +3,7 @@
     "description": "Everything integration for the Windows taskbar",
     "notes": "Enable EverythingToolbar via the context menu of the taskbar.",
     "version": "0.8.0-beta1",
+    "license": "MIT",
     "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.8.0-beta1/EverythingToolbar-0.8.0-beta1.msi#/setup.msi_",
     "hash": "320299cdc0687f7425aea771613db32e349645f5f21d825a53e7dc123ba2b3a7",
     "depends": "extras/everything",
