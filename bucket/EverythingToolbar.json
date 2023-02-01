@@ -2,10 +2,10 @@
     "homepage": "https://github.com/stnkl/EverythingToolbar",
     "description": "Everything integration for the Windows taskbar",
     "notes": "Enable EverythingToolbar via the context menu of the taskbar.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
-    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/1.0.0/EverythingToolbar-1.0.0.msi#/setup.msi_",
-    "hash": "1362940548d91303f7cccc7161e949d53ccd85dd3ae3d81b727aaadf9220c730",
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/1.0.1/EverythingToolbar-1.0.1.msi#/setup.msi_",
+    "hash": "7240392df4256bf115a5a4e0416802351e49ed26fbd48bceef1cde2b1e885445",
     "depends": "extras/everything",
     "checkver": "github",
     "autoupdate": {
