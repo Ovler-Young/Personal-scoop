@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/ThePBone/GalaxyBudsClient",
     "description": "Unofficial Galaxy Buds Manager for Windows and Linux",
-    "version": "4.5.2",
+    "version": "4.5.1",
     "license": "GPL-3.0",
-    "url": "https://github.com/ThePBone/GalaxyBudsClient/releases/download/4.5.2/GalaxyBudsClient_Windows_64bit_Setup.exe#/dl.7z",
-    "hash": "md5:58a489cafb5ce13ad064fd624b89a2bc",
+    "url": "https://github.com/ThePBone/GalaxyBudsClient/releases/download/4.5.1/GalaxyBudsClient_Windows_64bit_Setup.exe",
+    "hash": "3f94e3e56ad512842f71134a3675681385c4b5ade629754c8fb70d0d8aa12018",
     "shortcuts": [
         [
             "Galaxy Buds Client.exe",
