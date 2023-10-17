@@ -1,12 +1,12 @@
 {
-    "version": "0.5.13",
+    "version": "0.5.14",
     "description": "",
     "homepage": "https://github.com/zurawiki/gptcommit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zurawiki/gptcommit/releases/download/v0.5.13/gptcommit-x86_64-pc-windows-msvc.zip",
-            "hash": "4b07b73e793684c668e5275225959b929f4a1b7492f01ee89f6604bba387ac5f"
+            "url": "https://github.com/zurawiki/gptcommit/releases/download/v0.5.14/gptcommit-x86_64-pc-windows-msvc.zip",
+            "hash": "7bf4f3768ed2de9f09769ac7d7e824ccf5cd9f9213d9ee15c0a620099d4ffc47"
         }
     },
     "bin": "gptcommit.exe",
