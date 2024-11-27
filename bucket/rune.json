@@ -11,7 +11,7 @@
     },
     "bin": "rune.exe",
     "checkver": {
-        "github": "https://github.com/Losses/rune"
+        "github": "https://github.com/Losses/rune",
         "url": "https://github.com/git-for-windows/git/releases/latest",
         "regex": "Rune-v(?<version>[\d\w.]+)-(?<short>[a-fA-F0-9]{7})-windows-amd64\.zip"
     },
