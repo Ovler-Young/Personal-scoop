@@ -12,7 +12,7 @@
     "bin": "rune.exe",
     "checkver": {
         "url": "https://api.github.com/repos/Losses/rune/releases/latest",
-        "regex": "Rune-v(?<version>.*)-(?<short>[a-f0-9]{7})-windows-amd64.zip"
+        "regex": "Rune-v(\\d+\\.\\d+\\.\\d+(?:-alpha\\.\\d+|-beta\\.\\d+)?)-(?<short>[a-f0-9]{7})-windows-amd64\\.zip"
     },
     "autoupdate": {
         "url": "https://github.com/Losses/rune/releases/download/v$matchVersion/Rune-v$matchVersion-$matchShort-windows-amd64.zip",
