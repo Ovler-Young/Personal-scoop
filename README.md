@@ -49,12 +49,12 @@ scoop bucket add scoopet https://github.com/Ovler-Young/Personal-scoop
 
 |                             App                              | Auto-Update ? | Original ? |
 | :----------------------------------------------------------: | :-----------: | :--------: |
+| [Rune](https://github.com/Losses/rune)                       |       √       |     √      |
 | [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) |       ×       |     √      |
 | [Galaxy Buds Client](https://github.com/ThePBone/GalaxyBudsClient) |       √       |     √      |
 | [Smart System Menu](https://github.com/AlexanderPro/SmartSystemMenu) |       √       |     √      |
 | [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor) |       √       |     √      |
 | [Everything Toolbar](https://github.com/stnkl/EverythingToolbar) |       √       |     ×      |
-|            [Rune](https://github.com/Losses/rune)            |       √       |     √      |
 
 ## :running: To Start
 
