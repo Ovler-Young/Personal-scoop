@@ -45,6 +45,17 @@ For ones familiar with Scoop:
 scoop bucket add scoopet https://github.com/Ovler-Young/Personal-scoop
 ```
 
+## :star: Summary
+
+|                             App                              | Auto-Update ? | Original ? |
+| :----------------------------------------------------------: | :-----------: | :--------: |
+| [Rclone Browser](https://github.com/kapitainsky/RcloneBrowser) |       ×       |     √      |
+| [Galaxy Buds Client](https://github.com/ThePBone/GalaxyBudsClient) |       √       |     √      |
+| [Smart System Menu](https://github.com/AlexanderPro/SmartSystemMenu) |       √       |     √      |
+| [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor) |       √       |     √      |
+| [Everything Toolbar](https://github.com/stnkl/EverythingToolbar) |       √       |     ×      |
+|            [Rune](https://github.com/Losses/rune)            |       √       |     √      |
+
 ## :running: To Start
 
 ## :bike: Install Scoop
@@ -147,13 +158,3 @@ scoop config aria2-split 16
 scoop config aria2-max-connection-per-server 16
 scoop config aria2-min-split-size 4M
 ```
-
-## :star: Summary
-
-|          App          | Auto-Update ? | Original ?                                                          |
-| :-------------------: | :-----------: | ------------------------------------------------------------------- |
-|    RcloneBrowser     |       ×       | √                                                                   |
-|    GalaxyBudsClient     |       √       | √                                                                   |
-|    SmartSystemMenu     |       √       | √                                                                   |
-| TrafficMonitor | √ | √ |
-| EverythingToolbar | √ | × |
