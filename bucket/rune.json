@@ -6,10 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Losses/rune/releases/download/v0.0.0-alpha.16/Rune-v0.0.0-alpha.16-1c02e7c-windows-amd64.zip",
+            "extract_dir": "Rune-v0.0.0-alpha.16-1c02e7c-windows",
             "hash": "b01d68166e0a02aa941aea9b0fe6cc4974ada4a5914d048ffa1faa159040fe6b"
         }
     },
-    "extract_dir": "Rune-v0.0.0-alpha.16-1c02e7c-windows-amd64",
     "bin": "rune.exe",
     "checkver": {
         "url": "https://api.github.com/repos/Losses/rune/releases/latest",
@@ -17,7 +17,7 @@
     },
     "autoupdate": {
         "url": "https://github.com/Losses/rune/releases/download/v$version/Rune-v$version-$matchShort-windows-amd64.zip",
-        "extract_dir": "Rune-v$version-$matchShort-windows-amd64",
+        "extract_dir": "Rune-v$version-$matchShort-windows",
         "hash": {
             "mode": "download"
         }
