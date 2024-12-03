@@ -13,11 +13,10 @@
     "bin": "rune.exe",
     "checkver": {
         "url": "https://api.github.com/repos/Losses/rune/releases/latest",
-        "regex": "Rune-v(\\d+\\.\\d+\\.\\d+(?:-alpha\\.\\d+|-beta\\.\\d+)?)-(?<short>[a-f0-9]{7})-windows-amd64\\.zip"
+        "regex": "Rune-v(\\d+\\.\\d+\\.\\d+(?:-alpha\\.\\d+|-dev\\.\\d+|-beta\\.\\d+)?)-windows-amd64\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Losses/rune/releases/download/v$version/Rune-v$version-$matchShort-windows-amd64.zip",
-        "extract_dir": "Rune-v$version-$matchShort-windows",
+        "url": "https://github.com/Losses/rune/releases/download/v$version/Rune-v$version-windows-amd64.zip",
         "hash": {
             "mode": "download"
         }
