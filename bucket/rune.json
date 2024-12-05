@@ -10,6 +10,12 @@
         }
     },
     "bin": "rune.exe",
+    "shortcuts": [
+        [
+            "rune.exe",
+            "Rune"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Losses/rune/releases/latest",
         "regex": "Rune-v(\\d+\\.\\d+\\.\\d+(?:-alpha\\.\\d+|-dev\\.\\d+|-beta\\.\\d+)?)-windows-amd64\\.zip"
