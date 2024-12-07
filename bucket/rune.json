@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0-beta.4",
+    "version": "1.0.0-beta.5",
     "description": "Experience timeless melodies with a music player that blends classic design with modern technology.",
     "homepage": "https://github.com/Losses/rune",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Losses/rune/releases/download/v1.0.0-beta.4/Rune-v1.0.0-beta.4-windows-amd64.zip",
-            "hash": "8961494fefcf2ab82e75b04a2541e8beca789379e8ebdc7c3c561c7b30f878fd"
+            "url": "https://github.com/Losses/rune/releases/download/v1.0.0-beta.5/Rune-v1.0.0-beta.5-windows-amd64.zip",
+            "hash": "6c741ee77d1718eed9f4bde5d4d7e035e19a4a4f10212c734912693010a736eb"
         }
     },
     "bin": "rune.exe",
