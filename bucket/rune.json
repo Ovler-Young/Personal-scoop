@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/Losses/rune/releases/latest",
-        "regex": "Rune-v(\\d+\\.\\d+\\.\\d+(?:-alpha\\.\\d+|-dev\\.\\d+|-beta\\.\\d+)?)-windows-amd64\\.zip"
+        "regex": "Rune-v(\\d+\\.\\d+\\.\\d+(?:-alpha\\.\\d+|-dev\\.\\d+|-beta\\.\\d+|-rc\\.\\d+)?)-windows-amd64\\.zip"
     },
     "autoupdate": {
         "url": "https://github.com/Losses/rune/releases/download/v$version/Rune-v$version-windows-amd64.zip",
