@@ -17,7 +17,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/Losses/rune/releases/latest",
+        "url": "https://api.github.com/repos/Losses/rune/releases",
         "regex": "\"tag_name\":\\s*\"v([^\"]*)\""
     },
     "autoupdate": {
