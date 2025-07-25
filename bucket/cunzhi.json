@@ -1,0 +1,20 @@
+{
+    "version": "0.3.8",
+    "description": "告别AI提前终止烦恼，助力AI更加持久",
+    "homepage": "https://github.com/imhuso/cunzhi",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/imhuso/cunzhi/releases/download/v0.3.8/cunzhi-cli-v0.3.8-windows-x86_64.zip",
+            "hash": "E1F0C1ED4060EDB3CD19F0F99EB00962697FAD6D6EC6D00646ACC3F6565200E4"
+        }
+    },
+    "bin": ["寸止.exe", "等一下.exe"],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/imhuso/cunzhi/releases/download/v$version/cunzhi-cli-v$version-windows-x86_64.zip",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
