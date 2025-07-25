@@ -55,6 +55,8 @@ scoop bucket add scoopet https://github.com/Ovler-Young/Personal-scoop
 | [Smart System Menu](https://github.com/AlexanderPro/SmartSystemMenu) |       √       |     √      |
 | [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor) |       √       |     √      |
 | [Everything Toolbar](https://github.com/stnkl/EverythingToolbar) |       √       |     ×      |
+| [cunzhi](https://github.com/imhuso/cunzhi)                   |       √       |     √      |
+| [gptcommit](https://github.com/zurawiki/gptcommit)           |       √       |     √      |
 
 ## :running: To Start
 
